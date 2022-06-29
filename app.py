@@ -1,6 +1,13 @@
-
+import numpy as np
+import os
+import os.path
 from flask import Flask, render_template
+from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
+from matplotlib.figure import Figure
+
 app = Flask(__name__, template_folder="template")
+app._static_folder = os.path.abspath("templates/static/")
+
 
 @app.route("/")
 def index():
