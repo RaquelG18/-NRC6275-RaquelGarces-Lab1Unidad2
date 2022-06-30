@@ -1,7 +1,7 @@
 
-.barraNav{
+blockquote{
 
-    margin-bottom: 100%;
+    padding: 1px;
 
 }
 
@@ -10,4 +10,9 @@ canvas {
     background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20190830/pngtree-80s-retro-sci-fi-background-with-sunrise-or-sunset-image_308384.jpg);
     margin-top: 80px;
     margin-left: 180px;
+}
+
+body{
+
+    background-color: rgb(3, 3, 3);
 }
