@@ -1,5 +1,5 @@
-var canvasWidth = 600;
-var canvasHeight = 400;
+var canvasWidth = 960;
+var canvasHeight = 450;
 
 var player;
 var playerYPosition = 200;
