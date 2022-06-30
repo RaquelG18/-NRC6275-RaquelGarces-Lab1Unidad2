@@ -43,7 +43,7 @@ function createPlayer(width, height, x) {
     
     this.draw = function() {
         ctx = gameCanvas.context;
-        ctx.fillStyle = "green";
+        ctx.fillStyle = "pink";
         ctx.fillRect(this.x, this.y, this.width, this.height);
     }
     this.makeFall = function() {
@@ -77,7 +77,7 @@ function createBlock() {
     
     this.draw = function() {
         ctx = gameCanvas.context;
-        ctx.fillStyle = "red";
+        ctx.fillStyle = "white";
         ctx.fillRect(this.x, this.y, width, height);
     }
     this.attackPlayer = function() {
@@ -120,8 +120,8 @@ function createScoreLabel(x, y) {
     this.y = y;
     this.draw = function() {
         ctx = gameCanvas.context;
-        ctx.font = "25px Marker Felt";
-        ctx.fillStyle = "black";
+        ctx.font = "30px Marker Felt";
+        ctx.fillStyle = "white";
         ctx.fillText(this.text, this.x, this.y);
     }
 }
