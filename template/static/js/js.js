@@ -41,7 +41,6 @@ function startGame() {
     // Asignación de puntale en la etiqueta scorelabel() 
     scoreLabel = new createScoreLabel(10, 30);
 }
-
 var gameCanvas = {
     canvas: document.createElement("canvas"),
     start: function() {
@@ -53,7 +52,7 @@ var gameCanvas = {
 }
 
 /*
-    Creación de un jugador oponente 
+    Creación del jugador
 */
 function createPlayer(width, height, x) {
     this.width = width;
