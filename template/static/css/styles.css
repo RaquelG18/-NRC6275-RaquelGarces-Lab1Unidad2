@@ -1,10 +1,19 @@
-
+/*
+    Estilos para el bloque de texto
+*/
 blockquote{
 
     padding: 1px;
 
 }
 
+/*
+    Estilos para el liezno de canvas
+    margin-top: 80px; //margen superior de 80 pixeles
+    margin-left: 180px; //margen izquierdo de 180 pixeles
+    Para que el lienzo canvas se centre en la pantalla
+
+*/
 canvas {
     border:3px solid rgb(22, 8, 61);
     background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20190830/pngtree-80s-retro-sci-fi-background-with-sunrise-or-sunset-image_308384.jpg);
@@ -12,6 +21,9 @@ canvas {
     margin-left: 180px;
 }
 
+/*
+    Estilo para el fondo del cuerpo de nuestro HTML
+*/
 body{
 
     background-color: rgb(3, 3, 3);
